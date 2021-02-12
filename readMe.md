@@ -1,5 +1,8 @@
 Rock paper scissors excersize from theOdinProject.
 
-<button class="btns" id="ROCK">Rock</button>
-        <button class="btns" id="PAPER">Paper</button>
-        <button class="btns" id="SCISSORS">Scissors</button>
+
+
+You can see the finished product here.
+
+https://derobos.github.io/rock_paper_scissors/
+
