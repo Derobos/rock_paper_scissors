@@ -1,0 +1,55 @@
+body {
+    background-color: #ffffcc;
+}
+
+main {
+    display: grid;
+    gap: 20px, 20px;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 200px 200px 300px;
+    grid-template-areas: "user comp" "results results" "buttons buttons";
+    justify-content: space-evenly;
+    align-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.uScore {
+    display: grid;
+    grid-area: user;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.scoreBoard {
+    display: grid;
+    grid-area: results;
+    justify-content: space-evenly;
+}
+
+.cScore {
+    display: grid;
+    grid-area: comp;
+    margin-right: 30px;
+    margin-top: 20px;
+    justify-content: right;
+}
+
+.playField {
+    display: grid;
+    grid-area: buttons;
+    justify-items: center;
+    margin-bottom: 200px;
+}
+
+#ROCK {
+    transform: translateX(-200px);
+}
+
+#PAPER {
+    transform: translatey(-100px);
+}
+
+#SCISSORS {
+    transform: translate(200px, -245px) rotate(-90deg);
+}
